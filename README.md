@@ -1,13 +1,14 @@
-### Phase 4 Project
+# Text Sentiment
+#### Phase 4 Project
 This project was a collaboration between<br>
 * Benito Ywani
 * Patrick Arnold
 * Ahmad Samiee
 
-# Technical Summary
+## Technical Summary
 Our best model for Twitter sentiment prediction was Support Vector Classification which gave an overal accuracy of about 67%. The model under-predicted for all three classifications relative to actual for both firms.  It missed predicting correctly negative sentiment the most followed by positive and then neutral.  This may be because the dataset contained the fewest negative sentiment tweets, followed moderate number of positive tweets and the most number of neutral tweets. However, our model was able to correctly predict the overall trend for classification ratios where tweets with neutral sentiment had the highest ratio followed by positive and then negative. In addition, our model was able to correctly predict which of the two firms had a higher positive sentiment.<br>
 
-# Business Problem
+## Business Problem
 Our stakeholder an equity investment firm is considering to purchase equity in a technology compnay and they have narrowed down their selection between two compnaies.  As an additional analysis tool they like to take look at (potential customer) sentiment toward these two final selections. Therefore, they want a machine learning model that can predict sentiment in social media paltform like Twitter and also want to know how acurrately it can predict sentiment.<br>
 
 ## Master Dataset
